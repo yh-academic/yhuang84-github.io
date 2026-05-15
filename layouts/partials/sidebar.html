@@ -1,0 +1,35 @@
+{{- $sidebar := .Site.Params.sidebar -}}
+
+<a href="{{ "/" | absURL }}" class="sidebar-avatar">
+    <img src="{{ $sidebar.avatar | default "/images/avatar.jpg" }}" alt="{{ $sidebar.name }}">
+</a>
+
+<h2 class="sidebar-name">
+    <a href="{{ "/" | absURL }}">{{ $sidebar.name }}</a>
+</h2>
+
+<p class="sidebar-role">{{ $sidebar.role }}</p>
+<p class="sidebar-affiliation">{{ $sidebar.affiliation }}</p>
+
+<ul class="sidebar-social">
+    {{- range .Site.Params.socialIcons -}}
+    <li>
+        <a href="{{ .url }}" target="_blank" rel="noopener me" title="{{ .name }}">
+            {{- partial "svg.html" . -}}
+        </a>
+    </li>
+    {{- end -}}
+</ul>
+
+<ul class="sidebar-nav">
+    {{- range .Site.Menus.main -}}
+    {{- $url := .URL | absLangURL -}}
+    {{- $current := $.RelPermalink | absLangURL -}}
+    <li>
+        <a href="{{ .URL | absLangURL }}"
+           {{- if eq $url $current }} class="active"{{ end -}}>
+            {{ .Name }}
+        </a>
+    </li>
+    {{- end -}}
+</ul>

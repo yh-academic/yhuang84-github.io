@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}" dir="{{ .Language.LanguageDirection | default "auto" }}">
+
+<head>
+    {{- partial "head.html" . }}
+</head>
+
+<body class="{{- if (or (ne .Kind `page` ) (eq .Layout `archives`) (eq .Layout `search`)) -}}{{- print "list" -}}{{- end -}}" id="top">
+
+<div class="page-grid">
+
+    <aside class="sidebar-left">
+        {{- partial "sidebar.html" . }}
+    </aside>
+
+    <main class="main-content">
+        {{- block "main" . }}{{ end }}
+    </main>
+
+    <aside class="sidebar-right">
+        {{- if and (.Param "ShowToc") .TableOfContents }}
+        <nav class="toc">
+            <div class="toc-header">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                Contents
+            </div>
+            {{ .TableOfContents }}
+        </nav>
+        {{- end }}
+    </aside>
+
+</div>
+
+<footer class="footer">
+    © {{ now.Year }} {{ .Site.Params.author | default site.Title }}
+</footer>
+
+</body>
+</html>

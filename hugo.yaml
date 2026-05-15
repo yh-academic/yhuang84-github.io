@@ -1,0 +1,65 @@
+baseURL: "https://yuxihuang.com/"
+title: "Yuxi Huang"
+theme: PaperMod
+languageCode: en-us
+defaultContentLanguage: en
+enableRobotsTXT: true
+enableEmoji: true
+
+params:
+  env: production
+  author: "Yuxi Huang"
+  description: "Yuxi Huang, Ph.D. — Assistant Professor of Science Education at the University of Houston."
+  keywords: [Yuxi Huang, Science Education, Teacher Education, Preservice Teachers, Professional Noticing, Co-design, University of Houston]
+  DateFormat: "January 2, 2006"
+
+  defaultTheme: light
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowToc: true
+  TocOpen: true
+
+  # Sidebar profile（自定义参数，sidebar.html 会读取）
+  sidebar:
+    name: "Yuxi Huang, Ph.D."
+    role: "Assistant Professor of Science Education"
+    affiliation: "University of Houston"
+    avatar: "/images/avatar.jpg"
+    tagline: "Research on preservice teacher noticing and community-based co-design."
+
+  socialIcons:
+    - name: email
+      url: "mailto:hi@yuxihuang.com"
+    - name: scholar
+      url: "https://scholar.google.com/citations?user=eXY74_cAAAAJ&hl=en&authuser=1"
+    - name: orcid
+      url: "https://orcid.org/0000-0003-3356-2512"
+    - name: researchgate
+      url: "https://www.researchgate.net/profile/Yuxi-Huang-2"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yhuang9874154"
+
+menu:
+  main:
+    - name: About
+      url: /
+      weight: 1
+    - name: Research
+      url: /research/
+      weight: 2
+    - name: Publications
+      url: /publications/
+      weight: 3
+    - name: Beyond
+      url: /beyond/
+      weight: 4
+
+markup:
+  highlight:
+    style: github
+    lineNos: false
+    codeFences: true
