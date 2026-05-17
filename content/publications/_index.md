@@ -13,7 +13,7 @@ Sezen-Barrie, A., & **Huang, Y.** (in press). Youth storytelling in climate chan
 
 **Huang, Y.**, Luft, J. A., Tran, H. H., DeLuca, J. J., Pavez, J., & Whitworth, B. (2025). Exploring the attending and interpretation of three science and engineering practices among secondary science teachers. *International Journal of Science and Mathematics Education*. https://doi.org/10.1007/s10763-025-10548-9
 
-Tran, H., Lahiri, S., He, X., Adah Miller, E., DeLuca, J., Hamel, E., He, P., **Huang, Y.**, Li, T., Luft, J., Oni, T. K., & Sharma, A. (2025). "The hurricane was *gritando*": Leveraging elementary students' climate change experiences through storytelling toward an interdisciplinary approach to climate justice. *Environmental Education Research*, 1–22.
+Tran, H., Lahiri, S., He, X., Adah Miller, E., DeLuca, J., Hamel, E., He, P., **Huang, Y.**, Li, T., Luft, J., Oni, T. K., & Sharma, A. (2025). "The hurricane was *gritando*": Leveraging elementary students' climate change experiences through storytelling toward an interdisciplinary approach to climate justice. *Environmental Education Research*, 1–22.https://doi.org/10.1080/13504622.2025.2498934
 
 Lahiri, S., Adah Miller, E., **Huang, Y.**, Tran, H., DeLuca, J., & Luft, J. (in press). A systematic review on research studies about formal science climate change curricula: Insights and implications for elementary contexts. *The Journal of Environmental Education*.
 

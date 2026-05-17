@@ -18,7 +18,7 @@ Across this work, I view noticing not only as a cognitive practice but also as a
 **Representative work:**
 
 - **Huang, Y.**, Luft, J. A., Tran, H. H., DeLuca, J. J., Pavez, J., & Whitworth, B. (2025). Exploring the attending and interpretation of three science and engineering practices among secondary science teachers. *International Journal of Science and Mathematics Education.* https://doi.org/10.1007/s10763-025-10548-9
-- Luft, J. A., **Huang, Y.**, Singh, H., Ozen-Tasdemir, H., DeLuca, J., Watson, S., Ayano, E., & Whitworth, B. A. (2024). Exploring the noticing of science teachers: What teachers notice and using video to capture teacher knowledge. *School Science and Mathematics, 124*(3), 159–170.
+- Luft, J. A., **Huang, Y.**, Singh, H., Ozen-Tasdemir, H., DeLuca, J., Watson, S., Ayano, E., & Whitworth, B. A. (2024). Exploring the noticing of science teachers: What teachers notice and using video to capture teacher knowledge. *School Science and Mathematics, 124*(3), 159–170.https://doi.org/10.1111/ssm.12623
 
 ## Authority in Science Learning Environments
 
