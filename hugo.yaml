@@ -9,8 +9,7 @@ enableEmoji: true
 params:
   env: production
   author: "Yuxi Huang"
-  description: "Yuxi Huang, Ph.D. — Assistant Professor of Science Education at the University of Houston."
-  keywords: [Yuxi Huang, Science Education, Teacher Education, Preservice Teachers, Professional Noticing, Co-design, University of Houston]
+  description: "Yuxi Huang, Ph.D. — Incoming Assistant Professor of Science Education at the University of Houston."
   DateFormat: "January 2, 2006"
 
   defaultTheme: light
@@ -26,10 +25,10 @@ params:
   # Sidebar profile（自定义参数，sidebar.html 会读取）
   sidebar:
     name: "Yuxi Huang, Ph.D."
-    role: "Assistant Professor of Science Education"
+    role: "Incoming Assistant Professor of Science Education"
     affiliation: "University of Houston"
     avatar: "/images/avatar.jpg"
-    tagline: "Research on preservice teacher noticing and community-based co-design."
+    tagline: "Research on science teacher noticing and community-based co-design."
 
   socialIcons:
     - name: email
